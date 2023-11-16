@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 40vh;
+  background-color: #9290903f;
+  background-image: url(images/quiz-img.jpg);
+  background-size: cover;
+  background-blend-mode: color-burn;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+.show-js-questions {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 4px solid rgb(130, 137, 148);
+  margin-top: 2rem;
+  background-color: rgba(199, 199, 199, 0.075);
+  background-image: url(images/bulb.jpg);
+  background-size: contain;
+  background-blend-mode: color-burn;
+  color: black;
+  width: 600px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.qst {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: white;
+  color: #0c1116;
+  font-weight: bold;
+  width: 100%;
+}
+
+.answers {
+  width: 80%;
+}
+
+.ans {
+  background-color: #f0f8ff;
+  color: black;
+  width: 100%;
+  padding: 10px 30px 5px;
+  margin-bottom: 5px;
+  border: 1px solid #298a91;
+  font-size: 20px;
+  cursor: pointer;
+}
+.ans:hover {
+  background-color: #d0e3f3;
+}
+.score {
+  background-color: #0c1116;
+  color: white;
+  width: 500px;
+  height: 150px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10rem;
+}
+.score div {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.correct-ans-num {
+  color: #31ec4a;
+}
+.wrong-ans-num {
+  color: #f72c1d;
+}
+
+.current-qst-num {
+  margin: 10px 0;
+  background-color: #333232;
+  padding: 10px;
+  color: aliceblue;
+}
+.current-qst-num span {
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.try-again-btn {
+  padding: 10px 35px;
+  background-color: #f72c1d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: none;
+}
+.try-again-btn:hover {
+  background-color: #f34437;
+}
+
+.choose-category {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fc9b2c;
+  color: whitesmoke;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rebeccapurple;
+  box-shadow: 1px 1px 14px 4px rgba(54, 29, 78, 0.74);
+  animation: showElement 0.6s ease-in-out;
+}
+@keyframes showElement {
+  0% {
+    display: flex;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.choose-category p {
+  margin-bottom: 20px;
+  color: #011b35;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.english-quiz,
+.arabic-quiz {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 80%;
+  gap: 10px;
+}
+.choose-category span {
+  background-color: #0c1116;
+  width: 100px;
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
+}
+.choose-category span:hover {
+  background-color: #eed6d6;
+  color: #000;
+}
+
+.category-menu {
+  padding: 10px;
+  background-color: #ff8800;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: none;
+}
+.category-menu:hover {
+  background-color: #ffa034;
+}
+
+.bullets {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.bullets .circle {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+@media (max-width: 629px) {
+  .show-js-questions {
+    width: 100%;
+  }
+  .score {
+    width: 300px;
+  }
+  .buttons {
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+  }
+  .buttons button {
+    width: 299px;
+  }
+}

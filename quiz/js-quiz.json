@@ -1,0 +1,72 @@
+[
+  {
+    "question": "What will the following code output: console.log(typeof [])",
+    "correct": "object",
+    "wrong1": "array",
+    "wrong2": "Array",
+    "wrong3": "method"
+  },
+  {
+    "question": "How do you add a single comment line in JavaScript?",
+    "correct": "//",
+    "wrong1": "<--->",
+    "wrong2": "/*---*/",
+    "wrong3": "///"
+  },
+  {
+    "question": "What is the output of the following code: console.log(2 + '2')",
+    "correct": "22",
+    "wrong1": "4",
+    "wrong2": "NaN",
+    "wrong3": "Error()"
+  },
+  {
+    "question": "What is the result of the following expression: '5' - 3?",
+    "correct": "2",
+    "wrong1": "NaN",
+    "wrong2": "3",
+    "wrong3": "Error()"
+  },
+  {
+    "question": "What does the isNaN function do?",
+    "correct": "Returns true if the argument is not a number",
+    "wrong1": "Returns false if the argument is not a number",
+    "wrong2": "Returns true if the argument is a number",
+    "wrong3": "Returns false if the argument is a number"
+  },
+  {
+    "question": "How do you round the number 7.25, to the nearest integer?",
+    "correct": "Math.ceil(7.25)",
+    "wrong1": "Math.round(7.25)",
+    "wrong2": "Math.rnd(7.25)",
+    "wrong3": "round(7.25)"
+  },
+  {
+    "question": "Which method is used to add one or more elements to the end of an array and returns the new length of the array?",
+    "correct": "push()",
+    "wrong1": "pop()",
+    "wrong2": "join()",
+    "wrong3": "concat()"
+  },
+  {
+    "question": "What will be the result of the following code: 3.toString()",
+    "correct": "Error()",
+    "wrong1": "'3'",
+    "wrong2": "3",
+    "wrong3": "empty"
+  },
+  {
+    "question": "What is the output of the following code: console.log(2 * '3')",
+    "correct": "6",
+    "wrong1": "5",
+    "wrong2": "'6'",
+    "wrong3": "NaN"
+  },
+  {
+    "question": "What does the '&&' operator do in JavaScript?",
+    "correct": "Returns true if both operands are true",
+    "wrong1": "Returns true if one of the operands is true",
+    "wrong2": "Returns true if both operands are false",
+    "wrong3": "Returns true if either operand is false"
+  }
+]

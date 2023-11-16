@@ -1,0 +1,72 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "correct": "Paris",
+    "wrong1": "Rome",
+    "wrong2": "Berlin",
+    "wrong3": "Madrid"
+  },
+  {
+    "question": "Which is the longest river in the world?",
+    "correct": "Nile",
+    "wrong1": "Amazon",
+    "wrong2": "Mississippi",
+    "wrong3": "Yangtze"
+  },
+  {
+    "question": "What is the largest desert in the world?",
+    "correct": "Sahara",
+    "wrong1": "Arabian",
+    "wrong2": "Gobi",
+    "wrong3": "Kalahari"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "correct": "Tokyo",
+    "wrong1": "Beijing",
+    "wrong2": "Seoul",
+    "wrong3": "Shanghai"
+  },
+  {
+    "question": "Which mountain is the tallest in the world?",
+    "correct": "Mount Everest",
+    "wrong1": "K2",
+    "wrong2": "Kangchenjunga",
+    "wrong3": "Lhotse"
+  },
+  {
+    "question": "Which country is both in Europe and Asia?",
+    "correct": "Turkey",
+    "wrong1": "Russia",
+    "wrong2": "Kazakhstan",
+    "wrong3": "Azerbaijan"
+  },
+  {
+    "question": "What is the largest island in the world?",
+    "correct": "Greenland",
+    "wrong1": "New Guinea",
+    "wrong2": "Borneo",
+    "wrong3": "Madagascar"
+  },
+  {
+    "question": "Which is the southernmost continent?",
+    "correct": "Antarctica",
+    "wrong1": "Australia",
+    "wrong2": "South America",
+    "wrong3": "Africa"
+  },
+  {
+    "question": "What is the longest mountain range in the world?",
+    "correct": "Andes",
+    "wrong1": "Himalayas",
+    "wrong2": "Rocky Mountains",
+    "wrong3": "Alps"
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "correct": "Japan",
+    "wrong1": "China",
+    "wrong2": "Korea",
+    "wrong3": "Vietnam"
+  }
+]

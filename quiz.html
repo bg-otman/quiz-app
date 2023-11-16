@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quiz.css" />
+    <link rel="stylesheet" href="quiz-loader.css" />
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <title>Quiz | App</title>
+  </head>
+  <body>
+    <div class="choose-category">
+      <p>Please choose a category !</p>
+      <div class="english-quiz">
+        <span id="js-quiz">JavaScript</span>
+        <span id="Geography-quiz">Geography</span>
+      </div>
+
+      <div class="arabic-quiz">
+        <span id="general-culture">ثقافة عامة</span>
+        <span id="football-quiz">كرة القدم</span>
+      </div>
+    </div>
+
+    <div class="show-js-questions">
+      <div class="qst"></div>
+      <div class="answers">
+        <div class="ans1 ans"></div>
+        <div class="ans2 ans"></div>
+        <div class="ans3 ans"></div>
+        <div class="ans4 ans"></div>
+      </div>
+
+      <div class="current-qst-num">Question: <span>0</span> / 10</div>
+
+      <div class="bullets">
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+      </div>
+    </div>
+
+    <div class="score">
+      <div class="correct-ans">
+        Correct Answers : <span class="correct-ans-num">0</span>
+      </div>
+      <div class="wrong-ans">
+        Wrong Answers : <span class="wrong-ans-num">0</span>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button class="try-again-btn">Try Again</button>
+
+      <button class="category-menu">Category Menu</button>
+    </div>
+
+    <div class="loader-container">
+      <span class="loader"></span>
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>
